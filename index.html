@@ -1,1 +1,91 @@
-<h1>Coming Soon!</h1>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Fancy Foodie - A Food Review App</title>
+    <meta name="description" content="Fancy Foodie, A Food Review App" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style type="text/css">
+        body { 
+            margin: 0; 
+            background-color: #FCDB05;
+        }
+        .main-header {
+            position: relative;
+            font-family: Merriweather;
+            display: table;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 5rem;
+            text-align: center;
+            background: #FCDB05 no-repeat center center;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        .main-header .inner {
+            width: 80%;
+        }
+
+        .home-template .main-header:after {
+            display: block;
+            content: " ";
+            width: 150px;
+            height: 130px;
+            border-radius: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -75px;
+            background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%);
+            background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.15)), color-stop(70%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
+            background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%);
+            background: radial-gradient(ellipse at center,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%);
+        }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body class="home-template" style="background:#FCDB05;">
+
+    <header class="main-header">
+        <div class="vertical">
+            <div class="main-header-content inner" style="color:white;">
+                <img src="img/logo.png" class="img-responsive center-block" />
+                <h1 class="page-title">Fancy Foodie</h1>
+                <h2 class="page-description">
+                     Coming Soon !
+                </h2> 
+            </div>
+        </div>   
+    </header>
+
+    <!-- Google Analytics Tracking code -->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-66561519-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>   
+</body>
+</html>
